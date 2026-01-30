@@ -1,0 +1,22 @@
+.window{
+    overflow: hidden;
+    .main-content{
+    width: 100%;
+    height: 100%;
+    .spotify-window{
+        width: 100%;
+        height: 100%;
+        
+        iframe{
+            width: 100%;
+            height: 100%;
+
+            #_next{
+                .encore-dark-theme{
+                    border: none;   
+                }
+            }
+        }
+    }
+}
+}

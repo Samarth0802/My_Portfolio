@@ -1,0 +1,39 @@
+.terminal-container {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  overflow: auto;
+  font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
+
+  .react-console-emulator {
+    background-color: #000000;
+    height: 100%;
+    
+    .react-console-emulator__content {
+      padding: 20px;
+      white-space: pre-wrap;
+      line-height: 1.5;
+    }
+
+    .react-console-emulator__input {
+      color: #00ff00;
+    }
+  }
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(0, 255, 0, 0.3);
+    border-radius: 10px;
+    
+    &:hover {
+      background: rgba(0, 255, 0, 0.5);
+    }
+  }
+}

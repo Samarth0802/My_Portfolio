@@ -3,7 +3,7 @@ import './app.scss'
 import Dock from './components/Dock';
 import Navbar from './components/Navbar';
 import MacWindow from './windows/MacWindow';
-import Github from './windows/github';
+import Github from './windows/Github';
 import Aboutme from './windows/Aboutme';
 import Resume from './windows/Resume';
 import Spotify from './windows/Spotify';

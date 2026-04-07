@@ -25,7 +25,11 @@ html,body{
         display: flex;
         padding: 10px 20px;
         justify-content: space-between;
+        align-items: center;
         animation: moveDown 1s linear;
+        position: relative;
+        z-index: 1000;
+
         .content1{
             display: flex;
             gap: 14px;
@@ -85,6 +89,47 @@ html,body{
             h5{
                 margin-left: 10px;
                 font-weight: 500;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        padding: 5px 20px !important; // Consistent lateral padding
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100% !important;
+        box-sizing: border-box;
+        
+        .content1 {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            .name, h4, a {
+                display: none !important;
+            }
+            i {
+                font-size: 18px !important;
+            }
+        }
+
+        .content2 {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 5px !important;
+            h4:not(:nth-last-child(1)):not(:nth-last-child(2)) {
+                display: none !important;
+            }
+            h4 {
+                font-size: 13px !important;
+            }
+            h5 {
+                margin: 0 !important;
+                margin-left: 8px !important;
+                font-size: 13px !important;
             }
         }
     }

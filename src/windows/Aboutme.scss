@@ -364,29 +364,79 @@
 
 @media (max-width: 768px) {
   .aboutme-container {
-    padding: 20px;
+    padding: 20px 15px;
   }
 
   .about-header {
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    
     h1 {
-      font-size: 32px;
+      font-size: 28px;
+    }
+
+    .title {
+      font-size: 16px;
+      margin-bottom: 15px;
     }
 
     .personal-info {
-      gap: 15px;
-      font-size: 12px;
+      gap: 10px;
+      font-size: 11px;
+      
+      span {
+        padding: 6px 12px;
+      }
     }
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  section {
+    margin-bottom: 35px;
   }
 
   .skills-section .skills-grid {
     grid-template-columns: 1fr;
+    gap: 15px;
   }
 
   .tech-skills-section .tech-grid {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
 
-  .experience-card .exp-header {
-    flex-direction: column;
+  .experience-card {
+    padding: 15px;
+    
+    .exp-header {
+      flex-direction: column;
+      gap: 5px;
+      
+      h3 {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .education-card {
+    padding: 15px;
+    
+    h3 {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .about-header h1 {
+    font-size: 24px;
+  }
+  
+  .aboutme-container {
+    padding: 15px 10px;
   }
 }

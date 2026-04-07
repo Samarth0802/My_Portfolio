@@ -37,3 +37,39 @@
     }
   }
 }
+
+.terminal-mobile-restricted {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+
+  .restriction-message {
+    max-width: 80%;
+    
+    i {
+      font-size: 4rem;
+      color: #00ff00;
+      margin-bottom: 1.5rem;
+      display: block;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #888;
+      line-height: 1.6;
+    }
+  }
+}

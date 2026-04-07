@@ -113,3 +113,55 @@ body {
     background: linear-gradient(135deg, #1db954, #1ed760);
   }
 }
+
+@media (max-width: 768px) {
+  .dock {
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0) scale(0.8);
+    gap: 12px;
+    padding: 10px 16px;
+    width: fit-content;
+    max-width: 95vw;
+    margin: 0;
+    
+    .dock-item {
+      .icon {
+        width: 44px;
+        height: 44px;
+        padding: 6px;
+      }
+      
+      .label {
+        display: none; // Hide labels on mobile
+      }
+
+      &:hover .icon {
+        transform: scale(1.1) translateY(-5px);
+      }
+
+      &:hover + .dock-item .icon,
+      &:has(+ .dock-item:hover) .icon {
+        transform: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .dock {
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%, 0) scale(0.7);
+    gap: 8px;
+    padding: 8px 12px;
+    
+    .dock-item {
+      .icon {
+        width: 38px;
+        height: 38px;
+        padding: 5px;
+      }
+    }
+  }
+}

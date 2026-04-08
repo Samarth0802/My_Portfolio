@@ -1,5 +1,31 @@
 const projectsData = [
   {
+    "id": 10,
+    "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=800",
+    "title": "Moodify",
+    "description": "Music application frontend successfully deployed on Render, showcasing modern and dynamic UI implementation.",
+    "tags": ["React", "Frontend", "Render", "UI/UX"],
+    "repoLink": "https://github.com/Samarth0802/Moodify",
+    "demoLink": "https://moodify-prqj.onrender.com/"
+  },
+  {
+    "id": 11,
+    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=800",
+    "title": "Perplexity-Clone",
+    "description": "Full-stack AI search application with RAG architecture, Pinecone vector database, and custom agentic search capabilities.",
+    "tags": ["React", "Node.js", "Pinecone", "RAG"],
+    "repoLink": "https://github.com/Samarth0802/Perplexity-Clone",
+    "demoLink": "https://perplexity-rezy.onrender.com/"
+  },
+  {
+    "id": 12,
+    "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80&w=800",
+    "title": "Email-AI-Agent",
+    "description": "A conversational AI agent built with LangChain, LangGraph, and Mistral AI that can send emails via Gmail using natural language commands.",
+    "tags": ["LangChain", "Mistral AI", "Python", "AI Agent"],
+    "repoLink": "https://github.com/Samarth0802/Email-AI-Agent"
+  },
+  {
     "id": 1,
     "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&q=80&w=800",
     "title": "Wanderlust",

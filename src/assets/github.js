@@ -12,8 +12,8 @@ const projectsData = [
     "id": 11,
     "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=800",
     "title": "Perplexity-Clone",
-    "description": "Full-stack AI search application with RAG architecture, Pinecone vector database, and custom agentic search capabilities.",
-    "tags": ["React", "Node.js", "Pinecone", "RAG"],
+    "description": "A high-performance, agentic AI search engine clone built with a premium 'Stellar' aesthetic. Utilizes LangGraph and LangChain for real-time internet search with inline citations.",
+    "tags": ["React", "AI Agent", "LangChain", "LangGraph"],
     "repoLink": "https://github.com/Samarth0802/Perplexity-Clone",
     "demoLink": "https://perplexity-rezy.onrender.com/"
   },

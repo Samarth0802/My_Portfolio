@@ -2,9 +2,9 @@ const projectsData = [
   {
     "id": 10,
     "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=800",
-    "title": "Moodify",
-    "description": "Music application frontend successfully deployed on Render, showcasing modern and dynamic UI implementation.",
-    "tags": ["React", "Frontend", "Render", "UI/UX"],
+    "title": "MoodDetect",
+    "description": "MoodDetect is a full-stack web application that uses your webcam and Google MediaPipe's face landmark detection to analyze your facial expression in real time — and plays music that matches your mood. (Note: More songs are currently going to be added in the future).",
+    "tags": ["React", "Full Stack", "MediaPipe", "AI"],
     "repoLink": "https://github.com/Samarth0802/Moodify",
     "demoLink": "https://moodify-prqj.onrender.com/"
   },
